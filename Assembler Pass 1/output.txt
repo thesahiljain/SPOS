@@ -1,0 +1,55 @@
+MOT Contents
+1	ADD	01
+2	SUB	02
+3	MUL	03
+4	MOVER	04
+5	MOVEM	05
+6	COMP	06
+7	BC	07
+8	DIV	08
+9	READ	09
+10	PRINT	10
+
+POT Contents
+0	STOP	00
+1	START	01
+2	END	02
+3	EQU	03
+4	ORIGIN	04
+5	LTORG	05
+6	DS	06
+7	DC	07
+
+RT Contents
+1	AREG	01
+2	BREG	02
+3	CREG	03
+4	DREG	04
+
+Intermediate Code
+0	(AD, 01)		C, 200
+200	(IS, 04)	01	L, 0
+201	(IS, 05)	01	S, 0
+202	(IS, 04)	01	S, 0
+203	(IS, 04)	03	S, 2
+204	(IS, 01)	03	L, 1
+205	(AD, 05)		='5'
+206	(AD, 05)		='1'
+207	(IS, 02)	01	L, 1
+208	(AD, 04)		C, 250
+250	(IS, 03)	03	S, 2
+251	(DL, 06)		C, 2
+253	(DL, 07)		C, 3
+254	(AD, 02)		='1'
+
+ST Contents
+0	A	251
+1	LOOP	202
+2	B	253
+3	NEXT1	207
+4	NEXT2	202
+
+LT Contents
+0	='5'	205
+1	='1'	206
+2	='1'	254
