@@ -3,9 +3,7 @@ import java.nio.file.*;
 import java.util.*;
 
 public class PhaseOne {
-	
 	public static void main(String[] args) throws IOException {
-		
 		// Output String
 		String outputCode = "";
 		// Declare counters
