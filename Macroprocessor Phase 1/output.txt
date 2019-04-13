@@ -9,7 +9,7 @@ END
 
 MNT - Macro Name Table
 0	INCR	0
-0	DECR	4
+1	DECR	4
 
 MDT - Macro Definition Table
 0	INCR &arg1, &arg2
