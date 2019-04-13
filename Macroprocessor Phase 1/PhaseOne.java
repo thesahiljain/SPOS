@@ -26,7 +26,7 @@ public class PhaseOne {
 			if(lookForMend) {
 				if(firstLine) {
 					MDT.add(MDTC++, line);
-					MNT.add(MNTC, tokens[0], MDTC-1);
+					MNT.add(MNTC++, tokens[0], MDTC-1);
 					for(int i = 1; i < tokens.length; i++)
 						ALA.add(tokens[i]);
 					firstLine = false;
