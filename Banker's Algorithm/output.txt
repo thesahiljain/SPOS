@@ -1,0 +1,32 @@
+Enter number of resources : 3
+Enter number of processes : 5
+Enter allocation matrix
+0 1 0
+2 0 0
+3 0 2
+2 1 1
+0 0 2
+Enter max matrix
+7 5 3
+3 2 2
+9 0 2
+2 2 2
+4 3 3
+Enter available matrix
+3 3 2
+Need Matrix
+7 4 3 
+1 2 2 
+6 0 0 
+0 1 1 
+4 3 1 
+Enter the process which wants to request more resources : 1
+Enter request resource amount
+1 0 2
+Request fulfilled!
+Allocated process : 1
+Allocated process : 3
+Allocated process : 4
+Allocated process : 0
+Allocated process : 2
+All processes CAN be allocated safely!
