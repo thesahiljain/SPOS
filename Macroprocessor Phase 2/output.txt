@@ -1,0 +1,27 @@
+MNT - Macro Name Table
+0	INCR	0
+1	DECR	4
+
+MDT - Macro Definition Table
+0	INCR &arg1, &arg2
+1	MOV BX, #1
+2	ADD AX, BX
+3	MEND
+4	DECR &arg3
+5	SUB AX, #2
+6	MEND
+
+ALA - Argument List Array
+#0	&arg1	dummy
+#1	&arg2	dummy
+#2	&arg3	dummy
+
+Final Code
+START
+MOV AX, 10
+MOV BX, 3
+ADD AX, BX
+SUB AX, 5
+MOV BX, 3
+ADD AX, BX
+END
