@@ -1,0 +1,119 @@
+1. FCFS
+2. SJF
+3. Priority Scheduling
+4. Round Robin
+Enter choice : 1
+Enter number of processes : 5
+Enter name, arrival time and burst time for each process
+A 0 3
+B 2 6
+C 4 4
+D 6 5
+E 8 2
+
+
+Gantt Chart
+	A		B		C		D		E	
+0		3		9		13		18		20
+Name	AT	BT	TAT	WT	FT
+A	0	3	3	0	3	3
+B	2	6	7	1	9	6
+C	4	4	9	5	13	4
+D	6	5	12	7	18	5
+E	8	2	12	10	20	2
+
+Average Wait Time : 4.60
+Average Turn-Around Time : 8.60
+
+1. FCFS
+2. SJF
+3. Priority Scheduling
+4. Round Robin
+Enter choice : 2
+Enter number of processes : 5
+Enter name, arrival time and burst time for each process
+A 0 3
+B 2 6
+C 4 4
+D 6 5
+E 8 2
+
+Gantt Chart
+0
+Gantt Chart
+	A		A		A		B		C		C		C		C		E		E		B		B		B		B		B		D		D		D		D		D	
+0		1		2		3		4		5		6		7		8		9		10		11		12		13		14		15		16		17		18		19		20
+Name	AT	BT	TAT	WT	FT
+A	0	3	3	0	3	0
+B	2	6	13	7	15	0
+C	4	4	4	0	8	0
+D	6	5	14	9	20	0
+E	8	2	2	0	10	0
+
+Average Wait Time : 3.20
+Average Turn-Around Time : 7.20
+
+1. FCFS
+2. SJF
+3. Priority Scheduling
+4. Round Robin
+Enter choice : 3
+Enter number of processes : 5
+Enter name, arrival time and burst time for each process
+A 0 3
+B 2 6
+C 4 4
+D 6 5
+E 8 2
+
+Enter priority for process A : 3
+Enter priority for process B : 5
+Enter priority for process C : 2
+Enter priority for process D : 1
+Enter priority for process E : 2
+Gantt Chart
+	A		B		C		E		D	
+0		3		9		13		15		20
+Name	AT	BT	TAT	WT	FT
+A	0	3	3	0	3	3
+B	2	6	7	1	9	6
+C	4	4	9	5	13	4
+D	6	5	14	9	20	5
+E	8	2	7	5	15	2
+
+Average Wait Time : 4.00
+Average Turn-Around Time : 8.00
+
+1. FCFS
+2. SJF
+3. Priority Scheduling
+4. Round Robin
+Enter choice : 4
+Enter number of processes : 5
+Enter name, arrival time and burst time for each process
+A 0 3
+B 2 6
+C 4 4
+D 6 5
+E 8 2
+
+Enter quantum time : 
+2
+Gantt Chart
+	A		B		A		C		B		D		C		E		B		D		D	
+0		2		4		5		7		9		11		13		15		17		19		20
+Name	AT	BT	TAT	WT	FT
+A	0	3	5	2	5	0
+B	2	6	15	9	17	0
+C	4	4	9	5	13	0
+D	6	5	14	9	20	0
+E	8	2	7	5	15	0
+
+Average Wait Time : 6.00
+Average Turn-Around Time : 10.00
+
+1. FCFS
+2. SJF
+3. Priority Scheduling
+4. Round Robin
+Enter choice : 5
