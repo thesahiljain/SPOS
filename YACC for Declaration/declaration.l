@@ -14,4 +14,6 @@ extern int yyerror(char* str);
 
 %%
 
-extern int yywrap(){return 1;}
+int yywrap(){
+  return 1;
+}
